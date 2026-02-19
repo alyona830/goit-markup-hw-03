@@ -352,7 +352,10 @@ margin-bottom: 120px;
 }
 .footer {background-color: #2E2F42;
     padding-top: 100px;
-    
+    display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        
         
         
 }
