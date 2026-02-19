@@ -57,8 +57,6 @@ a{text-decoration: none}
     letter-spacing: 0.03em;
     font-family: Raleway, sans-serif;
     margin-right: 156px;
-    margin-top: 24px;
-    margin-bottom: 24px;
    
    
     }
@@ -102,7 +100,8 @@ margin-right: 76px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .contacts-inform {
     font-weight: 400;
@@ -125,7 +124,7 @@ font-weight: 400;
         align-items: center;
         display:inline-flex;
         gap: 40px;
-        
+        justify-content:flex-start;
 }
 
     
@@ -137,7 +136,7 @@ font-weight: 400;
     display: flex;
     flex-direction: column;
         align-items: center;
-  
+padding-top: 188px;
 }
 .h1-item {
     font-weight: 700;
@@ -147,7 +146,7 @@ font-weight: 400;
     text-align: center;
     color: #FFFFFF;
     
-    padding-top: 188px;
+   
     padding-bottom: 48px;
     max-width: 496px;
     
@@ -163,6 +162,7 @@ font-weight: 400;
    padding: 16px 32px 16px 32px; 
    border-radius: 4px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+border: none;
 justify-items: center;
     display: flex;
     margin: 0 auto;
@@ -173,8 +173,8 @@ justify-items: center;
 
 
 .features-section{
-margin-top: 120px;
-margin-bottom: 120px;
+padding-top: 120px;
+padding-bottom: 120px;
 }
 .visually-hidden {
     font-weight: 700;
@@ -243,11 +243,12 @@ display: flex;
     flex-direction: row;
     gap: 24px;
     
-    border-radius: 0 0 4px 4px;
-        padding: 0px 0px 32px;
+   
         
 }
 .team-item{
+    border-radius: 0 0 4px 4px;
+        padding: 0px 0px 32px;
 
 }
 .our-team-h3 {
@@ -296,11 +297,13 @@ display: flex;
 .portfolio-ul{
 display: flex;
 flex-wrap: wrap;
-gap: 24px;
+justify-content: space-between;
 margin-bottom: 120px;
 }
 .portfolio-list{
-
+justify-content: space-between;
+gap: 24px;
+margin-top: 48px;
 }
 .portfolio-h3 {
     font-weight: 500;
@@ -352,10 +355,12 @@ margin-bottom: 120px;
 }
 .footer {background-color: #2E2F42;
     padding-top: 100px;
+    padding-right: 156px;
+    padding-bottom: 100px;
     display: flex;
-        flex-direction: column;
+       flex-direction: column;
         justify-content: flex-start;
-        
+
         
         
 }
