@@ -132,6 +132,7 @@ font-weight: 400;
 }
 .contacts-link{
     display: inline-block;
+    color: #434455;
 }
 
     /*#endregion header*/
